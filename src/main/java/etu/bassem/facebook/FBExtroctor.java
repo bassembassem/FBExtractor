@@ -101,9 +101,11 @@ public class FBExtroctor {
 			ex.printStackTrace();
 		}
 		
+		/*
 		if(true) {
 			return;
 		}
+		*/
 		
 		// write file
 		try {
@@ -124,7 +126,7 @@ public class FBExtroctor {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+		/*
 		// write file
 		try {
 			
@@ -153,7 +155,7 @@ public class FBExtroctor {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+		*/
 	}
 
 	public static void getAllPostComments(String postId, FBPost fbPost) {
